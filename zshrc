@@ -92,3 +92,8 @@ alias ews-linux="ssh ishshah2@linux.ews.illinois.edu"
 
 neofetch
 export PATH="$HOME/.gem/ruby/2.4.0/bin:$PATH"
+
+# Golang
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go;
+export PATH=$PATH:$GOPATH/bin;
